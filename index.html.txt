@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Club de Natación Polares</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5faff; color: #003366; }
+    header { background-color: #0066cc; padding: 20px; text-align: center; color: white; }
+    nav { background-color: #004a99; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #0066cc; }
+    .programa { margin-bottom: 30px; }
+    footer { background-color: #003366; color: white; text-align: center; padding: 20px; }
+    a.button { display: inline-block; padding: 10px 20px; background-color: #0099ff; color: white; text-decoration: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Club de Natación Polares</h1>
+    <p>Formamos nadadores con técnica, corazón y carácter</p>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Sobre Nosotros</a>
+    <a href="#programas">Programas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Soy Camila Arcila Londoño, profesional en Deporte con énfasis en discapacidad. Ex nadadora de Selección Valle y subcampeona nacional. Fundé el Club Polares el 17 de julio de 2023 para formar nadadores desde la inclusión, la técnica y el acompañamiento humano.</p>
+    <p>Entrenadoras:</p>
+    <ul>
+      <li><strong>Camila Arcila</strong>: directora y entrenadora principal</li>
+      <li><strong>Catalina Zorrilla</strong>: adultos e intermedios</li>
+      <li><strong>Valeria Arcila</strong>: matronatación y principiantes</li>
+    </ul>
+  </section>
+
+  <section id="programas">
+    <h2>Programas y Horarios</h2>
+    <div class="programa">
+      <h3>Matronatación (6 meses a 4 años)</h3>
+      <p>Sábados: 10:00 – 11:00 a.m. (Valeria & Camila)</p>
+    </div>
+    <div class="programa">
+      <h3>Principiantes (5 a 7 años)</h3>
+      <p>Miércoles y Viernes:</p>
+      <ul>
+        <li>Nivel 2: 3:00 – 4:00 p.m.</li>
+        <li>Nivel 1: 4:00 – 5:00 p.m.</li>
+      </ul>
+      <p>(Valeria)</p>
+    </div>
+    <div class="programa">
+      <h3>Intermedios (8 a 11 años)</h3>
+      <p>Miércoles, Jueves y Viernes: 4:00 – 5:00 p.m. (Catalina)</p>
+    </div>
+    <div class="programa">
+      <h3>Avanzados - Competitivo</h3>
+      <p>Martes a Viernes: 5:00 – 7:00 p.m.<br>Sábados: 9:00 – 10:00 a.m. (Camila)</p>
+    </div>
+    <div class="programa">
+      <h3>Adultos (18 a 65+)</h3>
+      <p>Martes a Viernes: 6:00 – 7:00 p.m.<br>Sábados: 9:00 – 10:00 p.m. (Catalina & Camila)</p>
+    </div>
+    <div class="programa">
+      <h3>Acuagym</h3>
+      <p>Miércoles, Jueves y Viernes: 9:00 – 10:00 a.m. (Catalina)</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/573114014480" target="_blank">311 401 4480</a></p>
+    <p><strong>Ubicación:</strong> Centro Recreacional Bugalagrande<br>
+    Carrera 5 #9-00 – Bugalagrande, Valle del Cauca<br>
+    <a href="https://maps.app.goo.gl/1TzSHh4NECgTvwXU6" target="_blank">Cómo llegar</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Club de Natación Polares. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
